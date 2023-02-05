@@ -2,7 +2,7 @@
     width: 10em;
     height: 3.2em;
     background: #0e191c;
-    color: white;
+    color: #fff;
     border: none;
     border-radius: 0.625em;
     font-size: 18px;
@@ -16,7 +16,7 @@
    }
    
    .btn-black:hover{
-    color: black;
+    color: #0e191c;
    }
    
 
@@ -61,10 +61,10 @@
 
 
     .btn-signup {
-    --color: #ffffff;
-    --color2: rgb(10, 25, 30);
+    --color: #fff;
+    --color2:#0e191c;
     padding: 2px 6px;
-    background-color: rgba(0, 0, 0, 0.774);
+    background-color: #0e191ccc;
     width: 6em;
     height: 2.6em;
     border-radius: 6px;
@@ -76,8 +76,6 @@
     z-index: 1;
     font-weight: 400;
     font-size: 17px;
-    font-family: 'Roboto', 'Segoe UI', sans-serif;
-    text-transform: uppercase;
     color: var(--color);
     margin-left: 40px;
    
@@ -119,3 +117,24 @@
     filter: brightness(.7);
     transform: scale(.98);
    }
+
+
+   .btn-white:hover{
+    background: #0e191c;
+    border: 1px solid #fff;
+    color:#fff;
+  }
+  
+  .btn-white{
+    font-size: 13px;
+    font-weight: 600;
+    padding: 11px 18px;
+    color: #0e191c;
+    background-color: #dff1fd;
+    cursor: pointer;
+    border: 2px solid #0e191c;
+    outline: none;
+    transition: 0.2s;
+    border-radius: 20px;
+    
+  }
