@@ -19,7 +19,7 @@ const images = [
 
 let imageIndex = 0;
 
-for (let i = 1; i <= 30; i++) {
+for (let i = 1; i <= 40; i++) {
   let item = {
     id: i,
     title: `Post ${i}`,

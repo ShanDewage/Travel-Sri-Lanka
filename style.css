@@ -7,12 +7,11 @@
 }
 
 /*Start of Header Section Style*/ 
-
 .header{
   align-items: center;
   justify-content: space-between;
   background-color: #F3F1F5;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.06);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 2.06);
   position: relative;
   top: 0;
   left: 0;
@@ -36,11 +35,10 @@
 }
 
 
-
 /* Position the navbar container inside the image */
 .container { 
   width: auto;
-  padding: 20px 80px;
+  padding: 25px 80px;
 }
 
 .navbar-logo {
@@ -72,11 +70,12 @@
   font-size: 17px;
   width:auto;
   height: auto;
+  margin-right: 10px;
 }
 
 .topnav a:hover {
   background-color: #fff;
-  color: black;
+  color: #000;
   border-radius: 0.625em;
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
 }
@@ -99,7 +98,6 @@
   font-size: 80px;
   color: #fff;
   margin-top: -100px;
-  
 }
 
 .hero p{ 
@@ -119,6 +117,7 @@
 .fa-circle-play {
   margin-left: 4px;
 }
+
 
 /*Start of Card Section Style*/ 
 
@@ -220,7 +219,7 @@
   outline: none;
   border: none;
   border-radius: 4px;
-  background: #000000;
+  background: #0e191c;
   color: white;
   font-weight: bold;
   transition: 0.4s ease;
@@ -233,14 +232,15 @@
   position: absolute;
   top: 0;
   left: 0;
-  background: #0c0808;
-  background: linear-gradient(to bottom, #291f1f, #050303);
+  background: #0e191c;
+  background: linear-gradient(to bottom, #291f1f, #0e191c);
   object-fit: fill;
  }
 
-  img{
-  width:100%;
+  .card-img img{
+    width:100%;
    height:100%;
+   box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.3);
  }
  
  /*Hover*/
@@ -273,8 +273,7 @@
   /*display:contents;*/
   justify-content:space-between;
   flex-wrap: nowrap;
-position: relative;
-
+  position: relative;
 }
 
 .banner-img{
@@ -287,13 +286,12 @@ position: relative;
   height: 100vh;
   background-size: cover;
   background-position: center;
- 
 }
 
 .banner-img img{
   filter: brightness(50%);
-position: absolute;
-object-fit: cover;
+  position: absolute;
+  object-fit: cover;
 }
 
 .banner-box{
@@ -302,10 +300,8 @@ object-fit: cover;
   justify-content: center;
   align-items: center;
   /*background-image: url(images/img-10.jpg);*/
- 
   position: absolute;
   padding: 30px;
-  
 }
 
 
@@ -329,11 +325,10 @@ object-fit: cover;
   width: 50%;           
   text-align: center; 
   word-wrap: break-word;
-  padding: 25px;     
-  
+  padding: 25px;      
 }
 
-/**/
+/*start of gallery section style*/
 .gallery-section {
  margin-top: 80px;
 }
@@ -347,7 +342,6 @@ object-fit: cover;
   height: 100%;
   margin-top: -3rem;
   padding:0 50px 0 50px;
- 
 }
 
 /*
@@ -362,22 +356,23 @@ object-fit: cover;
   background-color: #ff0000;
   opacity: 1;
 }
-
 */
+
 .gallery-container{
   position: relative;
   width: 100%;
   display: flex;
   gap: 10px;
-  padding: 100px 2vw;
-  
+  padding: 100px 2vw; 
 }
+
 .column{
   flex:1;
   display: flex;
   flex-direction: column;
   gap:10px;
 }
+
 .post{
   position: relative;
   overflow: hidden;
@@ -408,4 +403,64 @@ img{
 .post:hover .overlay{
   opacity: 0.5;
   cursor: pointer;
+}
+
+
+/*start of newsletter section style*/
+
+.newsletter-section{
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  background-image: url(images/img-5.jpg);
+  background-repeat: no-repeat;
+  background-position:center;
+  background-color: #0e191c;
+  background-size:1250px;
+  height: 40vh;
+  margin-top: 80px;
+}
+
+.news-text{
+  margin-left: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-text h4{
+  color: #fff;
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.news-text p{
+  color: #cecaca;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.news-text span{
+  color: #ffbd27;
+}
+
+.news-form{
+  display: flex;
+  width: 40%;
+  margin-right: 80px;
+  align-items: center;
+  justify-content: center;
+}
+
+.news-form input{
+  height: 3em;
+  padding: 0 1.25em;
+  font-size: 14px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  outline: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  margin-right: 10px;
 }
