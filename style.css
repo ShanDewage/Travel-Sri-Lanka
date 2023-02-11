@@ -468,7 +468,7 @@ img{
 /*start of footer section style*/
 .footer-section{
   margin-top: 80px;
-  padding: 60px 120px 20px 120px;
+  padding: 70px 150px 20px 150px;
 }
 
 .footer{
@@ -499,7 +499,8 @@ img{
 
 
 .footer h4{
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 600;
   padding-bottom: 20px;
 }
 
@@ -509,7 +510,8 @@ img{
 }
 
 .col a{
-  font-size: 13px;
+  font-size: 15px;
+  font-weight: 300;
   margin-bottom: 10px;;
   text-decoration: none;
   color: #fff;
